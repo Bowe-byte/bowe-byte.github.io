@@ -1,4 +1,5 @@
-ul {
+/* Navigatiemenu-stijlen */
+ul { 
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,10 +19,11 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
 }
-body, strong {
-    color: #333; /* Zorgt ervoor dat sterke tekst dezelfde kleur heeft als de rest */
-}
+
+/* Algemene tekststijlen voor de hele pagina */
+body, h1, h2, h3, p, li, strong, b {
+  color: #333; /* Consistente tekstkleur */
+  font-family: Arial, sans-serif; /* U
