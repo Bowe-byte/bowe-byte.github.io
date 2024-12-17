@@ -1,18 +1,120 @@
-<!DOCTYPE html> <!--dit is de homepage van mijn site-->
-<html> <!--dit is het html-element-->
-  <head>
-    <title>Het eerste begin</title>
-    <link rel="stylesheet" type="text/css" href="opmaak.css">
-    <meta charset="utf-8">
-  </head>
-  <body>
-    Info Tekst over AI
-    <br>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="infotekst.html">Tekstje over AI</a></li>
-    </ul>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI (Artificial Intelligence)</title>
+    <link rel="stylesheet" href="opmaak.css"> <!-- Koppel de CSS -->
+    <style>
+        /* Algemene opmaak */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
 
+        /* Linker blauwe achtergrond */
+        .left-section {
+            background: linear-gradient(to bottom, #083047, #0b486d);
+            color: white;
+            width: 30%;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left-section h1 {
+            font-style: italic;
+            font-size: 36px;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        /* Rechter tekstgedeelte */
+        .content {
+            margin-left: 35%;
+            padding: 50px;
+        }
+
+        h2, h3 {
+            font-weight: bold;
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Knop terug naar Home */
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #185875;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #1d91b3;
+        }
+
+        /* Onderschrift */
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+            font-size: 12px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Linker sectie met titel -->
+    <div class="left-section">
+        <h1>AI <br>(<em>Artificial Intelligence</em>)</h1>
+        <div class="footer">Bowe van Meurs</div>
+    </div>
+
+    <!-- Rechter tekstgedeelte -->
+    <div class="content">
+        <h2><strong>Wat is AI?</strong></h2>
+        <p>AI, of kunstmatige intelligentie, is een technologie die computers en machines slim maakt. Dit betekent dat ze kunnen leren, denken en beslissingen kunnen nemen, net als mensen.</p>
+
+        <h3>Hoe werkt het?</h3>
+        <p>AI leert van veel gegevens. Bijvoorbeeld, als je een computer veel foto's van honden laat zien, kan de computer leren om een hond te herkennen. Dit gebeurt met behulp van speciale algoritmes en modellen.</p>
+
+        <h3>Waar wordt het voor gebruikt?</h3>
+        <p>AI wordt op verschillende manieren gebruikt. Je vindt het in:</p>
+        <ul>
+            <li><strong>Slimme assistenten</strong> zoals Siri of Alexa die je vragen beantwoorden.</li>
+            <li><strong>Gezondheidszorg</strong> om dokters te helpen bij het stellen van diagnoses.</li>
+            <li><strong>Zelfrijdende auto’s</strong> die zelfstandig kunnen rijden.</li>
+        </ul>
+
+        <h3>Wat zijn de voordelen?</h3>
+        <p>AI kan ons leven gemakkelijker maken. Het kan taken sneller en efficiënter uitvoeren dan mensen. Ook kan het helpen om nieuwe oplossingen te vinden voor moeilijke problemen.</p>
+
+        <h3>Wat zijn de nadelen?</h3>
+        <p>Er zijn ook zorgen over AI. Sommige mensen maken zich zorgen dat banen verloren gaan door automatisering. Ook is er de vraag hoe we ervoor zorgen dat AI eerlijk en veilig is.</p>
+
+        <h3>Conclusie</h3>
+        <p>AI is een belangrijke en groeiende technologie die ons leven kan veranderen. Het biedt veel mogelijkheden, maar we moeten ook goed nadenken over de gevolgen.</p>
+
+        <!-- Link terug naar de homepagina -->
+        <a href="index.html" class="back-button">Terug naar Home</a>
+    </div>
+</body>
+</html>
