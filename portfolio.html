@@ -59,17 +59,25 @@
             font-size: 12px;
             color: white;
         }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #185875;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-link:hover {
+            background-color: #1d91b3;
+        }
     </style>
 </head>
 <body>
-    <!-- Menu bovenaan -->
-    <ul>
-        <li><a href="portfolio.html">Home</a></li>
-        <li><a href="opdracht1.html">Opdracht 1</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="#">Cijfers</a></li>
-    </ul>
-
     <!-- Inhoud van de pagina -->
     <div class="container">
         <h1>Portfolio</h1>
@@ -91,8 +99,11 @@
             <button class="button">Portfolio van andere vakken</button>
             <button class="button">Cijfers</button>
         </div>
+
+        <!-- Link terug naar de homepagina -->
+        <a href="index.html" class="back-link">Terug naar Home</a>
+
         <div class="footer">Bowe van Meurs</div>
     </div>
 </body>
 </html>
-
