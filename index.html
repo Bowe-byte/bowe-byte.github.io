@@ -1,95 +1,19 @@
 <!DOCTYPE html>
-<!-- Dit is de homepage van mijn site -->
 <html lang="nl">
   <head>
+    <meta charset="UTF-8">
     <title>Homepagina</title>
-    <link rel="stylesheet" type="text/css" href="opmaak.css">
-    <meta charset="utf-8">
-    <style>
-      /* Extra stijlen voor deze pagina */
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-
-      .container {
-        display: flex;
-        height: 100vh;
-      }
-
-      .left-section {
-        background: #002A3A; /* Donkerblauwe achtergrond */
-        color: white;
-        padding: 2rem;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .right-section {
-        background: white;
-        color: #002A3A; /* Tekstkleur donkerblauw */
-        padding: 2rem;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      h1, h2 {
-        font-style: italic;
-        text-decoration: underline;
-      }
-
-      a.button {
-        display: inline-block;
-        padding: 10px 20px;
-        margin: 10px 0;
-        color: white;
-        background-color: #00405A; /* Blauwe knop */
-        text-decoration: none;
-        border-radius: 5px;
-      }
-
-      a.button:hover {
-        background-color: #002A3A;
-      }
-    </style>
+    <link rel="stylesheet" href="opmaak.css">
   </head>
   <body>
-    <!-- Navigatiemenu bovenaan -->
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="infotekst.html">Tekstje over AI</a></li>
-    </ul>
-
-    <!-- Inhoud van de pagina -->
     <div class="container">
-      <!-- Linker sectie -->
-      <div class="left-section">
-        <h1>Homepagina</h1>
-        <p>
-          <strong>Naam eigenaar:</strong> <em>Bowe van Meurs</em><br>
-          <strong>Iets over mijzelf:</strong>
-        </p>
-        <ul>
-          <li>15 jaar oud</li>
-          <li>Vwo 4 op het Vituscollege Bussum</li>
-        </ul>
-      </div>
-
-      <!-- Rechter sectie -->
-      <div class="right-section">
-        <h2>Waar gaat deze website over?</h2>
-        <p>
-          Op deze website zullen er verschillende opdrachten en teksten over gevarieerde onderwerpen komen.
-        </p>
-        <a href="portfolio.html" class="button">Ga naar Portfolio</a>
-        <a href="infotekst.html" class="button">Lees meer over AI</a>
-      </div>
+      <h1>Welkom op mijn website</h1>
+      <p>Dit is de homepagina. Hier vind je een introductie tot de inhoud van de site.</p>
+      
+      <!-- Knoppen naar andere pagina's -->
+      <button onclick="window.location.href='portfolio.html'">Portfolio</button>
+      <button onclick="window.location.href='infotekst.html'">Tekstje over AI</button>
     </div>
   </body>
 </html>
+
